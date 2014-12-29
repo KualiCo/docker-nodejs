@@ -1,5 +1,5 @@
 
-TAG ?= "marcusandre/nodejs"
+TAG ?= "kualicus/nodejs"
 DOCKER ?= docker
 
 build:

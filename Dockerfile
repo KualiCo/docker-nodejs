@@ -6,7 +6,7 @@
 #
 
 FROM ubuntu:14.04
-MAINTAINER Marcus André <hello@marcusandre.de>
+MAINTAINER Murphy Randle <mrandle@kuali.co>
 ENV VERSION 0.11.14
 
 #
@@ -14,7 +14,7 @@ ENV VERSION 0.11.14
 #
 
 RUN apt-get update -qq
-RUN apt-get install -y make gcc g++ python curl libssl-dev
+RUN apt-get install -y make gcc g++ python curl libssl-dev git
 
 #
 # Install node
